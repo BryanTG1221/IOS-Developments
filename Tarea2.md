@@ -65,3 +65,32 @@ if a == b || a == c || b == c   {
     print("Todas las variables son diferentes")
 }
 ```
+
+# Ejercicio 5 
+
+```swift
+import Foundation
+
+let blanquillos = 2
+let tocino = 3
+var blanquillosValidos = true
+var tocinoValidos = true
+
+if blanquillos > 21 {
+    blanquillosValidos = false
+}
+if tocino > 7 {
+    tocinoValidos = false
+}
+
+if blanquillosValidos && tocinoValidos {
+    print("Ambos se pueden cocinar")
+} else if !blanquillosValidos && !tocinoValidos {
+    print("Desechar ambos")
+} else if !blanquillosValidos {
+    print("Desechar los blanquillos")
+} else if !tocinoValidos {
+    print("Desechar el tocino")
+}
+
+```
