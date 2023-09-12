@@ -49,3 +49,19 @@ if a % b == 0 {
     print("No es divisible")
 }
 ```
+
+# Ejercicio 4
+
+```swift
+import Foundation
+
+let a = 1
+let b = 2
+let c = 3
+
+if a == b || a == c || b == c   {
+   print("Al menos dos  variables son iguales") 
+} else {
+    print("Todas las variables son diferentes")
+}
+```
