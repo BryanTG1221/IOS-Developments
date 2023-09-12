@@ -20,3 +20,17 @@ let resultado = encontrarNumeroMayor(numero1, numero2)
 print(resultado)
 
 ```
+
+# Ejercicio 2
+
+```swift
+import Foundation
+
+let x = 38
+
+if x % 2 == 0  {
+    print("Numero Par")
+} else {
+    print("Numero Inpar")
+}
+```
