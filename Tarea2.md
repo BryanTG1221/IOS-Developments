@@ -34,3 +34,18 @@ if x % 2 == 0  {
     print("Numero Inpar")
 }
 ```
+
+# Ejercicio 3
+
+```swift
+import Foundation
+
+let a = 22
+let b = 11
+
+if a % b == 0 {
+    print("Es divisible")
+} else {
+    print("No es divisible")
+}
+```
