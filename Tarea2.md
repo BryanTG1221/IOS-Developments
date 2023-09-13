@@ -142,3 +142,12 @@ if (x >= x1 && x <= x2) && (y >= y1 && y <= y2)  {
     print("Se encuentra fuera del plano")
 }
 ```
+# Ejercicio 9 
+
+```swift
+import Foundation
+
+let entrada = 1
+
+print(type(of: entrada))
+```
