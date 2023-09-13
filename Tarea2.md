@@ -108,3 +108,18 @@ if anio % 4 == 0 || anio % 400 == 0 {
     print("No es Bisiesto")
 }
 ```
+
+# Ejercicio 7
+
+```swift
+import Foundation
+
+let randomInt = Int.random(in: 1...2)
+
+if randomInt % 2 == 0 {
+    print("Es par")
+} else {
+    print("Es inpar")
+}
+
+```
