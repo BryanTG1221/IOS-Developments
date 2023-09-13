@@ -94,3 +94,17 @@ if blanquillosValidos && tocinoValidos {
 }
 
 ```
+
+# Ejercicio 6
+
+```swift
+import Foundation
+
+let anio = 2016
+
+if anio % 4 == 0 || anio % 400 == 0 {
+    print("Es Bisiesto")
+} else {
+    print("No es Bisiesto")
+}
+```
