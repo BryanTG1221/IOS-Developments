@@ -123,3 +123,22 @@ if randomInt % 2 == 0 {
 }
 
 ```
+
+# Ejercicio 8
+
+```swift
+import Foundation
+
+let x = 1
+let y = 2
+let x1 = 1
+let y1 = 1
+let x2 = 3
+let y2 = 3
+
+if (x >= x1 && x <= x2) && (y >= y1 && y <= y2)  {
+    print("Se encuentra dentro del plano")
+} else {
+    print("Se encuentra fuera del plano")
+}
+```
