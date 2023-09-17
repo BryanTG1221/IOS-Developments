@@ -49,3 +49,31 @@ imprimirSerieAlternada(4)
 imprimirSerieAlternada(9) 
 
 ```
+
+# Ejercicio 3
+
+```swift
+import Foundation
+
+func imprimirArbolito(_ nLineas: Int) {
+    for item in 1...nLineas {
+        let cantidadMostrar = item * 2 - 1
+        var asteriscos = ""
+        for item2 in 1...cantidadMostrar {
+            if item2 == 1 && cantidadMostrar == 1 {
+                asteriscos.append(" " + "*" +  " ")
+            } else {
+                asteriscos.append("*")
+            }
+        }
+        print(asteriscos)
+    }
+       
+}
+
+let n = 4
+
+imprimirArbolito(n)
+
+aun no terminado
+```
