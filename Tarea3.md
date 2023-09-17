@@ -24,3 +24,28 @@ let n = 5
 imprimirCuadradosPerfectos(n)
 
 ```
+
+# Ejercicio 2
+
+```swift
+import Foundation
+
+func imprimirSerieAlternada(_ n: Int) {
+    var serie = [Int]()
+    
+    for i in 1...(n + 1) / 2 {
+        serie.append(i)
+        if i != n - i + 1 {
+            serie.append(n - i + 1)
+        }
+    }
+    
+    let serieString = serie.map { String($0) }.joined(separator: " ")
+    print(serieString)
+}
+
+
+imprimirSerieAlternada(4)
+imprimirSerieAlternada(9) 
+
+```
