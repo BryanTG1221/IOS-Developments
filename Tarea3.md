@@ -77,6 +77,8 @@ imprimirArbolito(n)
 
 ```
 
+# Ejercicio 4
+
 ```swift
 
 import Foundation
