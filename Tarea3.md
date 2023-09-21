@@ -75,5 +75,24 @@ let n = 4
 
 imprimirArbolito(n)
 
-aun no terminado
+```
+
+```swift
+
+import Foundation
+
+let nNumero = 10
+var salida = [1, 1]
+
+for number in 0..<nNumero {
+    if number >= 2 {
+        let a = salida[number - 2]
+        let b = salida[number - 1]
+        let suma = a + b
+        salida.append(suma)
+    }
+}
+
+print(salida)
+
 ```
