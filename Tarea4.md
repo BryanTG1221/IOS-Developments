@@ -23,3 +23,21 @@ var vector = [1,2,3,10,100]
 vector.reverse()
 print(vector)
 ```
+# Ejercicio 3
+
+```swift
+var vector = [1,2,3,10,100]
+vector.reverse()
+print(vector)
+```
+
+# Ejercicio 4
+
+```swift
+
+var cadena = "12345"
+var array = Array(cadena)
+print(array)
+
+
+```
