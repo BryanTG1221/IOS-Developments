@@ -1,6 +1,7 @@
 
 # Ejercicio 1
 
+```swift
 let arrayNumeros = [1,2,3,10,100]
 var majorNumber = 0
 var previewNumber = 0
@@ -15,3 +16,4 @@ for numero in arrayNumeros {
 }
 
 print(majorNumber)
+```
