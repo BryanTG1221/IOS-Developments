@@ -118,3 +118,21 @@ if isPrime(15) {
     print("No es primo")
 }
 ```
+
+# Ejercicio 6
+
+```swift
+func pad(string : String, toSize: Int) -> String {
+  var padded = string
+  for _ in 0..<(toSize - string.count) {
+    padded = "0" + padded
+  }
+    return padded
+}
+
+let num = 78
+let str = String(num, radix: 2)
+print(str)
+pad(string: str, toSize: 8)
+
+```
