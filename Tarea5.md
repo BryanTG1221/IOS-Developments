@@ -1,5 +1,6 @@
 # Ejercicio 1
 
+```swift
 
 func isMayor(_ a: Int,_ b: Int) -> Int {
     if(a > b) {
@@ -12,3 +13,5 @@ func isMayor(_ a: Int,_ b: Int) -> Int {
 
 print(isMayor(2,5))
 print(isMayor(8,2))
+
+```
