@@ -17,7 +17,7 @@ for numero in arrayNumeros {
 
 print(majorNumber)
 ```
-
+# Ejercicio 2
 ```swift
 var vector = [1,2,3,10,100]
 vector.reverse()
