@@ -41,3 +41,14 @@ print(array)
 
 
 ```
+
+# Ejercicio 5
+
+```swift
+
+var cadena = "12345"
+var array = Array(cadena)
+print(array)
+
+
+```
