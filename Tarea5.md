@@ -31,3 +31,26 @@ print(isMayor(numberRecived: 8))
 arrayToResponse.removeAll()
 print(isMayor(numberRecived: 3))
 ```
+
+
+# Ejercicio 3
+
+```swift
+import Foundation
+
+func calcularMinutosTranscurridos(horaInicial: Int, minutosIniciales: Int = 0, horaFinal: Int, minutosFinales: Int = 0) -> Int {
+    let minutosInicialTotal = horaInicial * 60 + minutosIniciales
+    let minutosFinalTotal = horaFinal * 60 + minutosFinales
+    
+    let minutosTranscurridos = minutosFinalTotal - minutosInicialTotal
+    
+    return minutosTranscurridos
+}
+
+let minutos1 = calcularMinutosTranscurridos(horaInicial: 12, minutosIniciales: 3, horaFinal: 13, minutosFinales: 10)
+let minutos2 = calcularMinutosTranscurridos(horaInicial: 8, minutosIniciales: 10, horaFinal: 17, minutosFinales: 30)
+
+print("Minutos transcurridos: \(minutos1)")
+print("Minutos transcurridos: \(minutos2)")
+
+```
