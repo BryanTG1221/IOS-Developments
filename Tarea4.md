@@ -35,17 +35,6 @@ print(vector)
 
 ```swift
 
-var cadena = "12345"
-var array = Array(cadena)
-print(array)
-
-
-```
-
-# Ejercicio 5
-
-```swift
-
 import Foundation
 
 let arrayA = [1,2,3,10,100]
@@ -67,3 +56,15 @@ print(arrayDuplicado)
 
 
 ```
+
+# Ejercicio 5
+
+```swift
+
+var cadena = "12345"
+var array = Array(cadena)
+print(array)
+
+
+```
+
