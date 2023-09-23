@@ -54,6 +54,7 @@ print("Minutos transcurridos: \(minutos1)")
 print("Minutos transcurridos: \(minutos2)")
 
 ```
+
 # Ejercicio 4
 
 ```swift
@@ -93,6 +94,42 @@ if let elementoRemovido = miPila.entregarYRemoverPrimerElemento() {
 }
 
 if let nuevoPrimerElemento = miPila.obtenerValorDelPrimerElemento() {
+    print("Nuevo primer elemento: \(nuevoPrimerElemento)")
+}
+
+
+```
+
+# Ejercicio 5
+
+```swiftimport Foundation
+
+struct Cola<T> {
+    private var elementos = [T]()
+
+    mutating func agregar(_ elemento: T) {
+        elementos.append(elemento)
+    }
+
+    mutating func entregarYRemoverPrimerElemento() -> T? {
+        if elementos.isEmpty {
+            return nil // La cola está vacía
+        } else {
+            return elementos.removeFirst()
+        }
+    }
+}
+
+var miCola = Cola<String>()
+
+miCola.agregar("Manzana")
+miCola.agregar("Plátano")
+
+if let primerElemento = miCola.entregarYRemoverPrimerElemento() {
+    print("Elemento removido: \(primerElemento)")
+}
+
+if let nuevoPrimerElemento = miCola.entregarYRemoverPrimerElemento() {
     print("Nuevo primer elemento: \(nuevoPrimerElemento)")
 }
 
