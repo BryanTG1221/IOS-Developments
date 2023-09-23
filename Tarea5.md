@@ -102,7 +102,8 @@ if let nuevoPrimerElemento = miPila.obtenerValorDelPrimerElemento() {
 
 # Ejercicio 5
 
-```swiftimport Foundation
+```swift
+import Foundation
 
 struct Cola<T> {
     private var elementos = [T]()
