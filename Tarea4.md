@@ -46,9 +46,24 @@ print(array)
 
 ```swift
 
-var cadena = "12345"
-var array = Array(cadena)
-print(array)
+import Foundation
+
+let arrayA = [1,2,3,10,100]
+let arrayB = [1,2,3,4,5,6]
+
+var arrayDuplicado = [Int]()
+
+for itemA in arrayB {
+    for itemB in arrayA {
+        if itemB == itemA {
+            arrayDuplicado.append(itemB)
+        }
+    }
+    
+}
+
+
+print(arrayDuplicado)
 
 
 ```
