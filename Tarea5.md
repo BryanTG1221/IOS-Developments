@@ -54,3 +54,47 @@ print("Minutos transcurridos: \(minutos1)")
 print("Minutos transcurridos: \(minutos2)")
 
 ```
+# Ejercicio 4
+
+```swift
+import Foundation
+
+struct Pila<T> {
+    private var elementos = [T]()
+
+    mutating func agregar(_ elemento: T) {
+        elementos.insert(elemento, at: 0)
+    }
+
+    func obtenerValorDelPrimerElemento() -> T? {
+        return elementos.first
+    }
+
+    mutating func entregarYRemoverPrimerElemento() -> T? {
+        if elementos.isEmpty {
+            return nil
+        } else {
+            return elementos.removeFirst()
+        }
+    }
+}
+
+var miPila = Pila<Int>()
+
+miPila.agregar(5)
+miPila.agregar(10)
+
+if let primerElemento = miPila.obtenerValorDelPrimerElemento() {
+    print("Valor del primer elemento: \(primerElemento)")
+}
+
+if let elementoRemovido = miPila.entregarYRemoverPrimerElemento() {
+    print("Elemento removido: \(elementoRemovido)")
+}
+
+if let nuevoPrimerElemento = miPila.obtenerValorDelPrimerElemento() {
+    print("Nuevo primer elemento: \(nuevoPrimerElemento)")
+}
+
+
+```
