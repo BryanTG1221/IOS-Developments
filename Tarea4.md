@@ -92,3 +92,33 @@ print(arraySuma)
 
 ```
 
+# Ejercicio 7
+
+```swift
+
+import Foundation
+
+let arrayA = [[2,0,1],[3,0,0],[5,1,1]]
+let arrayB = [[1,0,1],[1,2,1],[1,1,0]]
+var arraySuma = [[Int]]()
+
+for itemIndex in 0..<arrayA.count {
+    var arryToAdd = [Int]()
+    for itemIndexB in 0..<arrayB.count {
+        var suma = arrayA[itemIndex][itemIndexB] - arrayB[itemIndex][itemIndexB]
+        arryToAdd.append(suma)
+    }
+    arraySuma.append(arryToAdd)
+}
+
+
+print(arraySuma)
+
+```
+
+# Ejercicio 8
+
+```swift
+
+
+```
