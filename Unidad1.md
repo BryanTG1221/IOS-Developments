@@ -43,3 +43,31 @@
 ## macOS Ventura (13):
 
 --Pendiente
+
+## Microsoft Windows 10:
+
+- **Creador o Compañía:** Microsoft Corporation.
+- **Fecha de lanzamiento:** Windows 10 se lanzó el 29 de julio de 2015.
+- **Costo por licencia:** Inicialmente, se ofrecía como una actualización gratuita para usuarios de Windows 7 y 8. Luego, Microsoft implementó un modelo de suscripción llamado Windows 10 Enterprise E3/E5, además de las licencias individuales de Windows 10 Home y Pro.
+- **Tipo de núcleo (CPU):** x86, x64, ARM.
+- **Tipo de Kernel:** Monolítico.
+- **Arquitectura soportada:** Principalmente x86 y x64, pero también ARM en ciertos dispositivos.
+- **Procesador gráfico:** Variará según la configuración del hardware.
+- **% de usuarios en el mundo:** Windows 10 ha sido una de las versiones más utilizadas de Windows en todo el mundo, pero la participación de mercado puede variar con el tiempo.
+- **% de usuarios en México:** Similar a la participación de mercado mundial.
+- **Sistemas de archivos soportados:** NTFS, FAT32, exFAT, ReFS.
+- **Firewall:** Sí, Windows 10 incluye el Firewall de Windows.
+
+## Linux Ubuntu:
+
+- **Creador o Compañía:** Canonical Ltd.
+- **Fecha de lanzamiento:** La primera versión de Ubuntu, 4.10 "Warty Warthog," se lanzó en octubre de 2004.
+- **Costo por licencia:** Ubuntu se distribuye bajo licencia GNU GPL y es de código abierto, por lo que es gratuito.
+- **Tipo de núcleo (CPU):** x86, x64, ARM, PowerPC, entre otros.
+- **Tipo de Kernel:** Monolítico (kernel de Linux).
+- **Arquitectura soportada:** Amplia gama de arquitecturas, pero las versiones más populares son para x86 y x64.
+- **Procesador gráfico:** Variará según la configuración del hardware y la versión de Ubuntu.
+- **% de usuarios en el mundo:** Ubuntu es una de las distribuciones de Linux más populares, pero su participación de mercado es menor que la de Windows y macOS.
+- **% de usuarios en México:** Similar a la participación de mercado mundial.
+- **Sistemas de archivos soportados:** ext4, ext3, ZFS (opcional), entre otros.
+- **Firewall:** Ubuntu incluye el firewall iptables, pero debe configurarse según las necesidades del usuario.
