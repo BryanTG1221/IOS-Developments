@@ -136,3 +136,20 @@ if let nuevoPrimerElemento = miCola.entregarYRemoverPrimerElemento() {
 
 
 ```
+
+# Ejercicio 6
+
+```swift
+import Foundation
+
+func factorial(_ numero: Int) {
+    var sumaFactorial = 1
+    for number in 1...numero {
+        sumaFactorial *= number
+    }
+    print(sumaFactorial)
+}
+
+factorial(3)
+
+```
