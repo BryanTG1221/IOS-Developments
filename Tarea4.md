@@ -120,5 +120,36 @@ print(arraySuma)
 
 ```swift
 
+import Foundation
+
+func extractDiagonals(matrix: [[Int]]) -> (DP: [Int], DI: [Int]) {
+    let n = matrix.count
+    var DP = [Int]()
+    var DI = [Int]()
+    
+    for i in 0..<n {
+        for j in 0..<n {
+            if i == j {
+                DP.append(matrix[i][j])
+            }
+            if i + j == n - 1 {
+                DI.append(matrix[i][j])
+            }
+        }
+    }
+    
+    return (DP, DI)
+}
+
+let matrizCuadrada = [
+    [3, 5, 8, 2],
+    [2, 7, 9, 5],
+    [2, 8, 9, 2],
+    [4, 6, 7, 1]
+]
+
+let diagonales = extractDiagonals(matrix: matrizCuadrada)
+print("Diagonal Principal: \(diagonales.DP)")
+print("Diagonal Inversa: \(diagonales.DI)")
 
 ```
