@@ -153,3 +153,34 @@ print("Diagonal Principal: \(diagonales.DP)")
 print("Diagonal Inversa: \(diagonales.DI)")
 
 ```
+# Ejercicio 9
+
+```swift
+
+import Foundation
+
+func sumInnerElements(matrix: [[Int]]) -> Int {
+    let n = matrix.count
+    var sum = 0
+    
+    for i in 1..<n-1 {
+        for j in 1..<n-1 {
+            sum += matrix[i][j]
+        }
+    }
+    
+    return sum
+}
+
+let matrizCuadrada = [
+    [3, 5, 8, 9, 2],
+    [1, 4, 2, 1, 0],
+    [4, 5, 4, 8, 1],
+    [9, 8, 1, 0, 3],
+    [7, 2, 1, 1, 3]
+]
+
+let resultado = sumInnerElements(matrix: matrizCuadrada)
+print("La suma de los elementos internos es: \(resultado)")
+
+```
