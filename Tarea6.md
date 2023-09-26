@@ -153,3 +153,49 @@ for nombreCompleto in nombresCompletos {
 }
 
 ```
+# Ejercicio 5
+
+```swift
+
+import Foundation
+
+func calcularMCD(_ a: Int, _ b: Int) -> Int {
+    let absA = abs(a)
+    let absB = abs(b)
+    var minVal = min(absA, absB)
+    
+    while minVal > 0 {
+        if absA % minVal == 0 && absB % minVal == 0 {
+            return minVal
+        }
+        minVal -= 1
+    }
+    
+    return 1
+}
+
+func sumarFracciones(f1: (Int, Int), f2: (Int, Int)) -> (Int, Int) {
+    let numerador1 = f1.0
+    let denominador1 = f1.1
+    let numerador2 = f2.0
+    let denominador2 = f2.1
+    
+    let mcd = calcularMCD(denominador1, denominador2)
+    
+    let nuevoNumerador1 = numerador1 * (denominador2 / mcd)
+    let nuevoNumerador2 = numerador2 * (denominador1 / mcd)
+    
+    let nuevoDenominador = denominador1 * (denominador2 / mcd)
+    
+    let sumaNumeradores = nuevoNumerador1 + nuevoNumerador2
+    
+    return (sumaNumeradores, nuevoDenominador)
+}
+
+let f1 = (5, 8)
+let f2 = (17, 9)
+
+let suma = sumarFracciones(f1: f1, f2: f2)
+print("Suma de fracciones:", suma)
+
+```
