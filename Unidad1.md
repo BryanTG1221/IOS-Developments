@@ -116,3 +116,53 @@ Una ventana de proyecto en Xcode es la interfaz de usuario principal donde los d
 - **Panel de navegación:** Muestra la estructura de archivos y grupos de un proyecto, lo que facilita la navegación y administración de archivos.
 - **Panel de utilerías:** Proporciona herramientas para editar propiedades y configuraciones de elementos seleccionados en la interfaz de usuario, como vistas y controles.
 - **Panel de depuración:** Proporciona información y herramientas para depurar la aplicación, incluido el visor de consola, registros y depuración en tiempo real.
+
+## Swift:
+
+**Definición completa:**
+Swift es un lenguaje de programación desarrollado por Apple que se utiliza para crear aplicaciones para sistemas operativos como iOS, macOS, watchOS y tvOS. Es un lenguaje de programación moderno y de alto nivel que se ha convertido en la principal opción para el desarrollo de aplicaciones en la plataforma Apple.
+
+**Historia:**
+- **Origen del nombre y logo:** El nombre "Swift" se eligió porque representa velocidad y eficiencia. El logo de Swift es un par de alas estilizadas que reflejan la velocidad y la agilidad del lenguaje.
+
+**Paradigmas de programación que soporta:**
+- Programación orientada a objetos: Swift admite programación orientada a objetos, lo que significa que puedes crear objetos que encapsulan datos y comportamientos relacionados.
+- Programación orientada a protocolos: Swift fomenta la programación orientada a protocolos, lo que permite definir comportamientos comunes mediante protocolos y hacer que los tipos se adhieran a ellos.
+
+**Tipo de licenciamiento:**
+Swift se distribuye bajo una licencia de código abierto, lo que significa que es gratuito y está disponible para que cualquiera lo use, modifique y distribuya.
+
+**Playground:**
+Playground es una característica de desarrollo en Xcode que permite a los desarrolladores escribir código Swift de manera interactiva y ver los resultados en tiempo real.
+
+**Prototipos en Playground:**
+Los Playground se utilizan para crear prototipos rápidos de código Swift y experimentar con diferentes algoritmos o ideas antes de incorporarlos a una aplicación completa.
+
+**Prototipos de apps y juegos:**
+Los desarrolladores pueden utilizar Playground para crear prototipos de aplicaciones y juegos simples utilizando Swift, lo que les permite visualizar y experimentar con ideas antes de implementarlas completamente.
+
+**Sintaxis:**
+- Comentarios: Los comentarios se pueden agregar al código usando // para comentarios de una sola línea o /* */ para comentarios de varias líneas.
+- Uso de punto y coma: En Swift, el uso del punto y coma al final de las declaraciones es opcional.
+- Nomenclatura de identificadores: Se recomienda utilizar nombres descriptivos para variables, constantes, funciones y otros identificadores en Swift.
+- Literales: Swift admite literales para tipos de datos como números enteros, flotantes, cadenas y más.
+- Tipos de datos: Los tipos de datos en Swift incluyen Int, Float, Double, String, Bool y muchos otros. También admite tipos de datos compuestos como arrays, diccionarios y rangos.
+- Alias de tipos: Puedes crear alias de tipos utilizando la palabra clave typealias.
+- Inferencia de tipos: Swift utiliza inferencia de tipos, lo que significa que el tipo de una variable o constante se deduce automáticamente según el valor asignado.
+- Declaración de variables y constantes: Las variables se declaran con var y las constantes con let.
+- Nomenclatura de variables y constantes: Swift permite el uso de caracteres Unicode especiales en los nombres de variables y constantes.
+- Tipo de dato Optional: Swift introduce el concepto de opciónals para representar valores nulos o ausentes de manera segura.
+- Secuencias de escape: Se utilizan secuencias de escape, como \n para nueva línea o \t para tabulación, en cadenas.
+
+**Operadores:**
+- Aritméticos: +, -, *, /, %, etc.
+- Relacionales: ==, !=, <, >, <=, >=, etc.
+- Lógicos: &&, ||, !
+- Bit a bit (bitwise): &, |, ^, ~, <<, >>
+- Asignación: =, +=, -=, *=, /=, %=, etc.
+- Rango: ..< (semicerrado), ... (cerrado).
+- Condicional ternaria: condición ? valorTrue : valorFalse.
+
+**Decisiones:** if, else, switch.
+
+**Ciclos:** for-in, while, repeat-while.
