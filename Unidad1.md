@@ -210,3 +210,132 @@ Los desarrolladores pueden utilizar Playground para crear prototipos de aplicaci
 - **UIKit:** Es el framework principal para el desarrollo de aplicaciones de usuario en iOS y tvOS. Incluye componentes de interfaz de usuario como botones, vistas y controladores.
 
 Estos frameworks son fundamentales en el desarrollo de aplicaciones para las plataformas de Apple y permiten a los desarrolladores acceder a una amplia gama de funcionalidades para crear aplicaciones efectivas y atractivas.
+
+## Arquitectura Swift:
+
+**Estructura de un archivo (código fuente):**
+
+- En Swift, un archivo de código fuente generalmente tiene la extensión ".swift".
+- Un archivo Swift puede contener una o más declaraciones de clase, estructuras, enumeraciones, funciones, propiedades y más.
+- El código se organiza en un conjunto de declaraciones en el archivo que pueden incluir importaciones de módulos externos, declaraciones de tipo, definiciones de clases y estructuras, funciones, etc.
+
+**Estructura de un archivo IPA:**
+
+- Un archivo IPA (iOS App Store Package) es un archivo comprimido que contiene una aplicación iOS completa, incluido su código binario, recursos y metadatos.
+- La estructura interna de un archivo IPA es compleja y contiene una variedad de archivos y carpetas, incluidos los binarios de la aplicación, archivos de recursos, perfiles de aprovisionamiento, información de iconos, entre otros.
+
+**Espacios de nombres:**
+
+- En Swift, los espacios de nombres son utilizados para evitar conflictos de nombres entre diferentes módulos, tipos y funciones.
+- Los nombres únicos se logran a través de la definición de módulos y el uso de la notación de punto (por ejemplo, UIKit.UIViewController), lo que permite referirse a tipos específicos en diferentes módulos.
+
+**Módulos:**
+
+- Los módulos en Swift son unidades de organización de código que agrupan tipos, funciones y otros elementos relacionados.
+- Los módulos permiten controlar la visibilidad de los elementos dentro y fuera del módulo utilizando las palabras clave import, public, internal, private, etc.
+
+**Instancias:**
+
+- En Swift, una instancia es una representación de un tipo definido, como una clase o estructura, que se crea en tiempo de ejecución.
+- Las instancias se crean utilizando el inicializador del tipo y se pueden acceder a través de variables o constantes.
+
+**Sintaxis en Swift:**
+
+**Condicionales:**
+
+La estructura de una declaración condicional en Swift utiliza if, else if y else para tomar decisiones basadas en condiciones.
+
+```swift
+if condición {
+    // Código a ejecutar si la condición es verdadera
+} else if otraCondición {
+    // Código a ejecutar si la primera condición es falsa y esta es verdadera
+} else {
+    // Código a ejecutar si todas las condiciones anteriores son falsas
+}
+```
+
+## Arreglos:
+
+Los arreglos en Swift se crean utilizando `[Tipo]` y pueden contener elementos del mismo tipo.
+
+```swift
+var miArreglo: [Int] = [1, 2, 3]
+```
+## Funciones:
+
+Las funciones en Swift se definen con la palabra clave `func`.
+
+```swift
+func saludar(nombre: String) -> String {
+    return "Hola, \(nombre)!"
+}
+```
+
+## Tuplas:
+
+Las tuplas son colecciones ordenadas de valores que pueden ser de diferentes tipos.
+
+```swift
+let coordenadas = (x: 10, y: 20)
+```
+
+## Enumeraciones:
+
+Las enumeraciones en Swift definen un conjunto fijo de valores relacionados.
+
+```swift
+enum DíaSemana {
+    case lunes, martes, miércoles, jueves, viernes
+}
+```
+
+## Diccionarios:
+
+Los diccionarios en Swift se crean utilizando `[Clave: Valor]` y almacenan pares clave-valor.
+
+```swift
+var miDiccionario: [String: Int] = ["uno": 1, "dos": 2, "tres": 3]
+```
+
+## Clases:
+
+Las clases en Swift se definen con la palabra clave `class` y permiten crear tipos de referencia.
+
+```swift
+class Persona {
+    var nombre: String
+    init(nombre: String) {
+        self.nombre = nombre
+    }
+}
+```
+## Propiedades:
+
+Las propiedades en una clase son variables o constantes que almacenan valores.
+
+```swift
+class Persona {
+    var nombre: String
+    let edad: Int
+    init(nombre: String, edad: Int) {
+        self.nombre = nombre
+        self.edad = edad
+    }
+}
+```
+## Métodos:
+
+Los métodos son funciones que están asociadas con una clase y pueden acceder a sus propiedades.
+
+```swift
+class Persona {
+    var nombre: String
+    init(nombre: String) {
+        self.nombre = nombre
+    }
+    func saludar() {
+        print("Hola, soy \(nombre).")
+    }
+}
+```
