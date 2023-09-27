@@ -1,6 +1,8 @@
 # Instituto Tecnológico de Nuevo Laredo
 ![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbNxTFTT1xeBVwWk_S5h05KjoJreNJ4mO7E-S0BuxrdQ&s)
-*Lema del Tec: Con la Ciencia por la Humanidad*
+
+
+*Con la Ciencia por la Humanidad*
 
 ## [Nombre de la Carrera]
 ![Escudo de la Carrera](URL_DEL_ESCUDO_DE_LA_CARRERA)
