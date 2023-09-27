@@ -14,16 +14,13 @@
 - Bryan Azael Turrubiates Galindo (Número de Control: 19100793)
 
 
-
-
-
-
-
-
-
-
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 ## Classic Mac OS:
