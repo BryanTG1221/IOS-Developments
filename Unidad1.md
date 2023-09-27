@@ -1,5 +1,5 @@
 # Instituto Tecnológico de Nuevo Laredo
-![Escudo del Tec](https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.itnuevolaredo.edu.mx%2F&psig=AOvVaw2ygzuZq_OuFH0IuDPr_aHc&ust=1695861121804000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCOj4tpDFyYEDFQAAAAAdAAAAABAD)
+!(https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.itnuevolaredo.edu.mx%2F&psig=AOvVaw2ygzuZq_OuFH0IuDPr_aHc&ust=1695861121804000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCOj4tpDFyYEDFQAAAAAdAAAAABAD)
 *Lema del Tec: Con la Ciencia por la Humanidad*
 
 ## [Nombre de la Carrera]
