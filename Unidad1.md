@@ -444,3 +444,357 @@ Con estas recomendaciones y un enfoque de aprendizaje continuo, estará bien enc
 
 # Practicas de programacion
 
+## Conversión de la Edad de un Perro a Edad Humana
+
+### Explicación Breve:
+En este código, se realiza una conversión de la edad de un perro a su equivalente en edad humana utilizando una fórmula comúnmente aceptada. El objetivo es calcular cuántos años humanos tendría un perro según su edad en años perros.
+
+### Pasos de la Realización:
+
+* Inicialización de la variable ageDog con un valor de 50, que representa la edad del perro en años caninos.
+
+* Creación de la función getAgeHuman, que toma un parámetro age de tipo entero (que representa la edad del perro) y realiza el cálculo para obtener la edad equivalente en años humanos.
+
+* Dentro de la función getAgeHuman, se utiliza la fórmula age / 7 para calcular la edad en años humanos. Esto se basa en una regla general que establece que 1 año de perro es aproximadamente equivalente a 7 años humanos.
+
+* Se utiliza la función print para mostrar el resultado en la consola, indicando cuántos años humanos tendría el perro.
+
+### Resultados Obtenidos:
+La conversión de la edad del perro a años humanos se realiza correctamente y se muestra en la consola.
+
+### Sentencias Completas:
+
+```swift
+let ageDog = 50
+
+func getAgeHuman (age: Int) {
+    print("El perro tiene:", age / 7, "Años")
+}
+
+getAgeHuman(age: ageDog)
+
+```
+
+### Consideraciones:
+
+La fórmula utilizada para convertir la edad de un perro a años humanos es una aproximación y puede variar según la raza y el tamaño del perro.
+Este código asume que la variable ageDog contiene la edad del perro en años caninos antes de llamar a la función getAgeHuman.
+
+### Resultados Obtenidos (Explicación):
+El código tomará la edad del perro (50 años) y aplicará la fórmula de conversión, dividiendo la edad del perro por 7. El resultado será 7, lo que significa que el perro tiene aproximadamente 7 años humanos. Esta información se mostrará en la consola como "El perro tiene: 7 Años".
+
+----
+
+## Cálculo de Velocidad en Diferentes Unidades
+
+### Explicación Breve:
+En este código, se calcula la velocidad en diferentes unidades (metros por segundo, kilómetros por hora y millas por hora) a partir de una distancia en metros y un tiempo en horas, minutos y segundos dados. El objetivo es determinar la velocidad a la que se está moviendo un objeto.
+
+### Pasos de la Realización:
+
+- Se inicializan las variables `hora`, `minutos`, `segundos` y `distanciaMts` con sus respectivos valores. Estos valores representan la hora actual (5 horas, 56 minutos, 23 segundos) y la distancia recorrida en metros (2500 metros).
+
+- Se crea la función `getMts`, que realiza los cálculos necesarios para obtener la velocidad en diferentes unidades.
+
+- Dentro de la función `getMts`, se calcula el tiempo total en segundos utilizando la fórmula `(hora * 3600) + (minutos * 60) + segundos`.
+
+- Luego, se calcula la velocidad en metros por segundo dividiendo la distancia en metros (`distanciaMts`) por el tiempo total en segundos.
+
+- Se calcula la velocidad en kilómetros por hora multiplicando la velocidad en metros por segundo por 3.6 (ya que 1 metro por segundo es igual a 3.6 kilómetros por hora).
+
+- Se calcula la velocidad en millas por hora multiplicando la velocidad en metros por segundo por 2.237 (aproximadamente, ya que 1 metro por segundo es igual a aproximadamente 2.237 millas por hora).
+
+- Finalmente, se utilizan las funciones `print` para mostrar los resultados en la consola, indicando la velocidad en metros por segundo, kilómetros por hora y millas por hora.
+
+### Resultados Obtenidos:
+La velocidad en diferentes unidades se calcula correctamente y se muestra en la consola.
+
+### Sentencias Completas:
+
+```swift
+var hora = 5
+var minutos = 56
+var segundos = 23
+var distanciaMts = 2500
+
+func getMts() {
+    let secondTotal = Float((hora * 3600) + (minutos * 60) + segundos)
+    let velocityOnSeconds = Float(distanciaMts) / secondTotal
+    let velocityKmPorHora = velocityOnSeconds * 3.6
+    let velocityMillasPorHora = velocityOnSeconds * 2.237 
+    print(velocityOnSeconds,"Metros por segundo")
+    print(velocityKmPorHora, "Kilometros por hora")
+    print(velocityMillasPorHora, "mph")
+}
+
+getMts()
+
+```
+
+### Consideraciones:
+Este código asume que las variables hora, minutos, segundos y distanciaMts contienen valores válidos antes de llamar a la función getMts.
+
+### Resultados Obtenidos (Explicación):
+El código calcula la velocidad utilizando la fórmula de velocidad = distancia / tiempo. Primero, convierte el tiempo total en segundos y luego divide la distancia en metros por este tiempo para obtener la velocidad en metros por segundo. Luego, se convierte esta velocidad a kilómetros por hora y millas por hora. Los resultados se muestran en la consola, proporcionando la velocidad en diferentes unidades.
+
+----
+
+## Cálculo de Valores de 'a' y 'b'
+
+### Explicación Breve:
+En este código, se calculan los valores de 'a' y 'b' utilizando las variables 'suma' y 'diferencia'. El objetivo es determinar los valores de 'a' y 'b' de acuerdo con las fórmulas proporcionadas.
+
+### Pasos de la Realización (Prueba 1):
+
+- Se inicializan las variables 'suma' y 'diferencia' con los valores 16 y 4, respectivamente.
+
+- Se calcula 'a' utilizando la fórmula `(suma + diferencia) / 2`.
+
+- Se calcula 'b' restando 'a' de 'suma'.
+
+- Se utilizan las funciones 'print' para mostrar los valores de 'a' y 'b' en la consola.
+
+### Resultados Obtenidos (Prueba 1):
+Los valores de 'a' y 'b' se calculan correctamente y se muestran en la consola.
+
+### Sentencias Completas (Prueba 1):
+
+```swift
+let suma = 16
+let diferencia = 4
+
+let a = (suma + diferencia) / 2
+let b = suma - a
+
+print("El valor de a es:", a)
+print("El valor de b es:", b)
+
+```
+
+### Pasos de la Realización (Prueba 2):
+Se inicializan las variables 'suma' y 'diferencia' con los valores 11 y 3, respectivamente.
+
+Se calcula 'a' utilizando la fórmula (suma + diferencia) / 2.
+
+Se calcula 'b' restando 'a' de 'suma'.
+
+Se utilizan las funciones 'print' para mostrar los valores de 'a' y 'b' en la consola.
+
+### Resultados Obtenidos (Prueba 2):
+Los valores de 'a' y 'b' se calculan correctamente y se muestran en la consola.
+
+```swift
+let suma = 11
+let diferencia = 3
+
+let a = (suma + diferencia) / 2
+let b = suma - a
+
+print("El valor de a es:", a)
+print("El valor de b es:", b)
+
+```
+
+### Consideraciones:
+Este código asume que las variables 'suma' y 'diferencia' contienen valores válidos antes de realizar los cálculos.
+
+----
+
+## Cálculo de Perímetro y Área de una Figura
+
+### Explicación Breve:
+En este código, se calcula el perímetro y el área de una figura geométrica a partir de su ancho, alto, y las coordenadas de dos de sus vértices. Se utilizan dos funciones: `calcularPerimetro` y `calcularArea` para realizar los cálculos necesarios.
+
+### Pasos de la Realización:
+
+- Se importa la librería Foundation para utilizar funciones matemáticas y de impresión.
+
+- Se define la función `calcularPerimetro` que toma como parámetros el ancho, alto y las coordenadas x e y de uno de los vértices de la figura. La función calcula el perímetro sumando las longitudes de los lados de la figura.
+
+- Se define la función `calcularArea` que toma los mismos parámetros que `calcularPerimetro`. Esta función calcula el área de la figura dividiéndola en dos rectángulos y sumando sus áreas.
+
+- Se inicializan las variables `anchoPrueba1`, `altoPrueba1`, `xPrueba1`, y `yPrueba1` con valores de prueba.
+
+- Se calcula el perímetro y el área de la figura utilizando las funciones `calcularPerimetro` y `calcularArea` con los valores de prueba.
+
+- Se utilizan las funciones `print` para mostrar el resultado de la prueba en la consola.
+
+### Resultados Obtenidos:
+El código calcula el perímetro y el área de la figura correctamente y muestra los resultados en la consola.
+
+### Sentencias Completas:
+
+```swift
+import Foundation
+
+func calcularPerimetro(ancho: Double, alto: Double, x: Double, y: Double) -> Double {
+    let ladoHorizontalSuperior = ancho + x
+    let ladoVertical = alto + y
+    let ladoHorizontalInferior = ancho
+    let perimetro = ladoHorizontalSuperior + ladoVertical + ladoHorizontalInferior
+    return perimetro
+}
+
+func calcularArea(ancho: Double, alto: Double, x: Double, y: Double) -> Double {
+    let areaSuperior = (ancho + x) * alto
+    let areaInferior = ancho * y
+    let areaTotal = areaSuperior + areaInferior
+    return areaTotal
+}
+
+let anchoPrueba1 = 8.0
+let altoPrueba1 = 12.0
+let xPrueba1 = 4.0
+let yPrueba1 = 3.0
+
+let perimetroPrueba1 = calcularPerimetro(ancho: anchoPrueba1, alto: altoPrueba1, x: xPrueba1, y: yPrueba1)
+let areaPrueba1 = calcularArea(ancho: anchoPrueba1, alto: altoPrueba1, x: xPrueba1, y: yPrueba1)
+
+print("Prueba 1:")
+print("Perímetro:", perimetroPrueba1)
+print("Área:", areaPrueba1)
+
+```
+
+### Consideraciones:
+Este código asume que los valores de anchoPrueba1, altoPrueba1, xPrueba1, y yPrueba1 contienen valores válidos antes de realizar los cálculos.
+
+---
+
+## Extracción del Último Dígito de un Número Entero
+
+### Explicación Breve:
+En este código, se extrae el último dígito de un número entero y se imprime en la consola. El número se convierte primero en una cadena para facilitar la extracción del último dígito.
+
+### Pasos de la Realización:
+
+- Se inicializa la variable `a` con el valor 123.
+
+- Se convierte el número entero `a` en una cadena utilizando la función `String(a)` y se almacena en la variable `numeroComoCadena`.
+
+- Se utiliza un condicional `if let` para intentar obtener el último dígito de la cadena. Si se puede obtener el último dígito como una cadena, se convierte a un entero utilizando `Int(String(ultimoDigito))`.
+
+- Se imprime el resultado que indica cuál es el último dígito del número original `a`.
+
+### Resultados Obtenidos:
+El código extrae el último dígito del número 123 correctamente y lo muestra en la consola.
+
+### Sentencias Completas:
+
+```swift
+let a = 123
+
+let numeroComoCadena = String(a)
+
+if let ultimoDigito = numeroComoCadena.last {
+    if let ultimoDigitoInt = Int(String(ultimoDigito)) {
+        print("El último dígito de \(a) es \(ultimoDigitoInt)")
+    }
+}
+```
+
+### Consideraciones:
+Este código asume que la variable a contiene un número entero válido antes de realizar los cálculos.
+
+---
+
+## Cálculo de Edad de Anahí
+
+### Explicación Breve:
+En este código, se calcula la edad de Anahí utilizando una fórmula basada en tres parámetros: `x`, `y`, y `abril`. Se utilizan dos pruebas diferentes con valores específicos para calcular la edad de Anahí en cada caso.
+
+### Pasos de la Realización:
+
+- Se importa la librería Foundation para utilizar funciones matemáticas.
+
+- Se define la función `calcularEdadAnahi` que toma tres parámetros: `x`, `y`, y `abril`. La función realiza un cálculo basado en estos valores y devuelve la edad de Anahí.
+
+- Se inicializan las variables `prueba1_x`, `prueba1_y`, `prueba1_abril`, `prueba2_x`, `prueba2_y`, y `prueba2_abril` con valores específicos para dos pruebas diferentes.
+
+- Se calcula la edad de Anahí para cada prueba utilizando la función `calcularEdadAnahi`.
+
+- Se utiliza la función `print` para mostrar los resultados de las pruebas en la consola.
+
+### Resultados Obtenidos:
+El código calcula la edad de Anahí para las dos pruebas diferentes y muestra los resultados en la consola.
+
+### Sentencias Completas:
+
+```swift
+import Foundation
+
+func calcularEdadAnahi(x: Int, y: Int, abril: Int) -> Int {
+    let anahi = y * (abril + x) - x
+    return anahi
+}
+
+let prueba1_x = 3
+let prueba1_y = 2
+let prueba1_abril = 12
+
+let prueba2_x = 1
+let prueba2_y = 3
+let prueba2_abril = 12
+
+let edadAnahiPrueba1 = calcularEdadAnahi(x: prueba1_x, y: prueba1_y, abril: prueba1_abril)
+let edadAnahiPrueba2 = calcularEdadAnahi(x: prueba2_x, y: prueba2_y, abril: prueba2_abril)
+
+print("Prueba 1 - Edad de Anahí: \(edadAnahiPrueba1) años")
+print("Prueba 2 - Edad de Anahí: \(edadAnahiPrueba2) años")
+```
+
+### Consideraciones:
+Este código asume que los valores de las variables prueba1_x, prueba1_y, prueba1_abril, prueba2_x, prueba2_y, y prueba2_abril contienen valores válidos antes de realizar los cálculos.
+
+---
+
+## Intercambio de Manzanas por Naranjas
+
+### Explicación Breve:
+En este código, se realiza un intercambio de manzanas por naranjas. Se calcula cuántas naranjas se obtienen y cuántas manzanas quedan después de realizar intercambios completos. La relación es que 5 manzanas se intercambian por 3 naranjas.
+
+### Pasos de la Realización:
+
+- Se importa la librería Foundation para utilizar funciones matemáticas.
+
+- Se define la función `realizarIntercambioManzanasNaranjas` que toma un parámetro `manzanas` de tipo entero. La función calcula cuántos intercambios completos de 5 manzanas por 3 naranjas se pueden hacer, cuántas naranjas se obtienen y cuántas manzanas quedan después del intercambio.
+
+- Se inicializan las variables de prueba `prueba1_manzanas`, `prueba2_manzanas`, y `prueba3_manzanas` con diferentes valores.
+
+- Se realiza el intercambio de manzanas por naranjas utilizando la función `realizarIntercambioManzanasNaranjas` en cada prueba.
+
+- Se utiliza la función `print` para mostrar los resultados de las pruebas en la consola.
+
+### Resultados Obtenidos:
+El código calcula cuántas naranjas se obtienen y cuántas manzanas quedan después de realizar los intercambios en cada prueba y muestra los resultados en la consola.
+
+### Sentencias Completas:
+
+```swift
+import Foundation
+
+func realizarIntercambioManzanasNaranjas(manzanas: Int) -> (naranjasObtenidas: Int, manzanasRestantes: Int) {
+    let intercambiosCompletos = manzanas / 5
+    let naranjasObtenidas = intercambiosCompletos * 3
+    let manzanasRestantes = manzanas % 5
+    return (naranjasObtenidas, manzanasRestantes)
+}
+
+let prueba1_manzanas = 17
+let prueba2_manzanas = 25
+let prueba3_manzanas = 4
+
+let resultadoPrueba1 = realizarIntercambioManzanasNaranjas(manzanas: prueba1_manzanas)
+let resultadoPrueba2 = realizarIntercambioManzanasNaranjas(manzanas: prueba2_manzanas)
+let resultadoPrueba3 = realizarIntercambioManzanasNaranjas(manzanas: prueba3_manzanas)
+
+print("Prueba 1 - Naranjas obtenidas: \(resultadoPrueba1.naranjasObtenidas), Manzanas restantes: \(resultadoPrueba1.manzanasRestantes)")
+print("Prueba 2 - Naranjas obtenidas: \(resultadoPrueba2.naranjasObtenidas), Manzanas restantes: \(resultadoPrueba2.manzanasRestantes)")
+print("Prueba 3 - Naranjas obtenidas: \(resultadoPrueba3.naranjasObtenidas), Manzanas restantes: \(resultadoPrueba3.manzanasRestantes)")
+```
+
+### Consideraciones:
+Este código asume que las variables de prueba prueba1_manzanas, prueba2_manzanas, y prueba3_manzanas contienen valores válidos antes de realizar los cálculos.
+
+---
+
