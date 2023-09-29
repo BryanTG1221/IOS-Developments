@@ -2735,3 +2735,291 @@ print(miTriangulo.calcularArea())
 * Las instancias de las clases se crean con valores específicos para las dimensiones de cada figura.
 # Resultados Obtenidos (Explicación)
 El código crea instancias de las clases Rectangulo, Circunferencia y Triangulo con dimensiones específicas. Luego, calcula y muestra el área de cada figura en la consola utilizando los métodos calcularArea implementados en cada clase. Cada resultado representa el área de la figura geométrica correspondiente.
+
+---
+
+## Clases de Vehículos y Creación de Instancias
+
+### Explicación Breve
+En este código, se definen clases que representan diferentes tipos de vehículos, como autos compactos, autos de lujo, camionetas y vagonetas. Cada clase tiene propiedades específicas que describen las características del vehículo. Se crean instancias de estas clases con valores específicos y se asignan a las variables `autoCompacto` y `camioneta`.
+
+### Pasos de la Realización
+
+1. Definición de la clase `Vehiculo`, que tiene propiedades comunes a todos los vehículos, como el número de serie del motor, la marca, el año y el precio. Se implementa un inicializador `init` para inicializar estas propiedades.
+
+2. Definición de la clase `AutoCompacto`, que hereda de la clase `Vehiculo`. Esta clase agrega una propiedad adicional, `cantidadPasajeros`, que representa la capacidad de pasajeros del auto compacto. Se implementa un inicializador que toma valores específicos para todas las propiedades y llama al inicializador de la clase base.
+
+3. Definición de la clase `AutoDeLujo`, que es similar a `AutoCompacto`, pero agrega la propiedad `cantidadPasajeros` para representar la capacidad de pasajeros del auto de lujo. También se implementa un inicializador que llama al inicializador de la clase base.
+
+4. Definición de la clase `Camioneta`, que hereda de la clase `Vehiculo`. Esta clase agrega propiedades adicionales, como `capacidadCargaKgs`, `cantidadEjes` y `cantidadRodadas`, para describir las características de una camioneta. Se implementa un inicializador que toma valores específicos para todas las propiedades y llama al inicializador de la clase base.
+
+5. Definición de la clase `Vagoneta`, que es similar a `AutoCompacto` y `AutoDeLujo`, pero agrega la propiedad `cantidadPasajeros` para representar la capacidad de pasajeros de la vagoneta. También se implementa un inicializador que llama al inicializador de la clase base.
+
+6. Creación de instancias de las clases `AutoCompacto` y `Camioneta` con valores específicos para sus propiedades. Estas instancias se asignan a las variables `autoCompacto` y `camioneta`.
+
+### Resultados Obtenidos
+Se crean instancias de vehículos específicos (auto compacto y camioneta) con valores para sus propiedades.
+
+### Sentencias Completas
+
+```swift
+class Vehiculo {
+    var numeroSerieMotor: String
+    var marca: String
+    var año: Int
+    var precio: Double
+    
+    init(numeroSerieMotor: String, marca: String, año: Int, precio: Double) {
+        self.numeroSerieMotor = numeroSerieMotor
+        self.marca = marca
+        self.año = año
+        self.precio = precio
+    }
+}
+
+class AutoCompacto: Vehiculo {
+    var cantidadPasajeros: Int
+    
+    init(numeroSerieMotor: String, marca: String, año: Int, precio: Double, cantidadPasajeros: Int) {
+        self.cantidadPasajeros = cantidadPasajeros
+        super.init(numeroSerieMotor: numeroSerieMotor, marca: marca, año: año, precio: precio)
+    }
+}
+
+class AutoDeLujo: Vehiculo {
+    var cantidadPasajeros: Int
+    
+    init(numeroSerieMotor: String, marca: String, año: Int, precio: Double, cantidadPasajeros: Int) {
+        self.cantidadPasajeros = cantidadPasajeros
+        super.init(numeroSerieMotor: numeroSerieMotor, marca: marca, año: año, precio: precio)
+    }
+}
+
+class Camioneta: Vehiculo {
+    var capacidadCargaKgs: Double
+    var cantidadEjes: Int
+    var cantidadRodadas: Int
+    
+    init(numeroSerieMotor: String, marca: String, año: Int, precio: Double, capacidadCargaKgs: Double, cantidadEjes: Int, cantidadRodadas: Int) {
+        self.capacidadCargaKgs = capacidadCargaKgs
+        self.cantidadEjes = cantidadEjes
+        self.cantidadRodadas = cantidadRodadas
+        super.init(numeroSerieMotor: numeroSerieMotor, marca: marca, año: año, precio: precio)
+    }
+}
+
+class Vagoneta: Vehiculo {
+    var cantidadPasajeros: Int
+    
+    init(numeroSerieMotor: String, marca: String, año: Int, precio: Double, cantidadPasajeros: Int) {
+        self.cantidadPasajeros = cantidadPasajeros
+        super.init(numeroSerieMotor: numeroSerieMotor, marca: marca, año: año, precio: precio)
+    }
+}
+
+let autoCompacto = AutoCompacto(numeroSerieMotor: "12345", marca: "Toyota", año: 2022, precio: 20000, cantidadPasajeros: 5)
+let camioneta = Camioneta(numeroSerieMotor: "67890", marca: "Ford", año: 2023, precio: 30000, capacidadCargaKgs: 1000, cantidadEjes: 2, cantidadRodadas: 4)
+```
+
+# Consideraciones
+* Cada clase de vehículo tiene propiedades específicas que describen sus características.
+* Se utilizan inicializadores (init) para establecer los valores de las propiedades al crear instancias de las clases.
+* Las instancias de las clases se crean con valores específicos para sus propiedades.
+
+---
+
+## Cálculo de Salario de Empleados
+
+### Explicación Breve
+En este código, se definen clases que representan a empleados con diferentes escenarios de horas trabajadas y salario por hora. Las clases incluyen `Empleado`, `EmpleadoSinHorasExtra`, `EmpleadoConHorasDobles` y `EmpleadoConHorasTriples`. Cada clase tiene propiedades específicas y un método `calcularSalario` que calcula el salario del empleado según las horas trabajadas y el salario por hora.
+
+### Pasos de la Realización
+
+1. Definición de la clase `Empleado`, que tiene propiedades para las `horasTrabajadas` y el `sueldoPorHora`. Se implementa un inicializador para establecer estas propiedades y un método `calcularSalario` para calcular el salario del empleado.
+
+2. Definición de la clase `EmpleadoSinHorasExtra`, que hereda de la clase `Empleado`. Esta clase no modifica el cálculo del salario y simplemente llama al método `calcularSalario` de la clase base.
+
+3. Definición de la clase `EmpleadoConHorasDobles`, que hereda de la clase `Empleado` y agrega una propiedad `horasExtras` para representar las horas trabajadas adicionales. Se implementa un inicializador para establecer todas las propiedades y se sobrescribe el método `calcularSalario` para calcular el salario con horas extras a una tarifa doble.
+
+4. Definición de la clase `EmpleadoConHorasTriples`, que es similar a `EmpleadoConHorasDobles`, pero calcula el salario con horas extras a una tarifa triple.
+
+5. Creación de instancias de las clases `EmpleadoSinHorasExtra`, `EmpleadoConHorasDobles` y `EmpleadoConHorasTriples` con valores específicos para las horas trabajadas y el salario por hora.
+
+6. Uso de la función `print` para mostrar el salario calculado para cada empleado en la consola.
+
+### Resultados Obtenidos
+Se calcula y muestra el salario de empleados en diferentes escenarios (sin horas extras, con horas extras a tarifa doble y con horas extras a tarifa triple).
+
+### Sentencias Completas
+
+```swift
+class Empleado {
+    var horasTrabajadas: Int
+    var sueldoPorHora: Double
+    
+    init(horasTrabajadas: Int, sueldoPorHora: Double) {
+        self.horasTrabajadas = horasTrabajadas
+        self.sueldoPorHora = sueldoPorHora
+    }
+    
+    func calcularSalario() -> Double {
+        return Double(horasTrabajadas) * sueldoPorHora
+    }
+}
+
+class EmpleadoSinHorasExtra: Empleado {
+    override func calcularSalario() -> Double {
+        return super.calcularSalario()
+    }
+}
+
+class EmpleadoConHorasDobles: Empleado {
+    var horasExtras: Int
+    
+    init(horasTrabajadas: Int, sueldoPorHora: Double, horasExtras: Int) {
+        self.horasExtras = horasExtras
+        super.init(horasTrabajadas: horasTrabajadas, sueldoPorHora: sueldoPorHora)
+    }
+    
+    override func calcularSalario() -> Double {
+        let salarioBase = super.calcularSalario()
+        let salarioHorasExtras = Double(horasExtras) * (sueldoPorHora * 2)
+        return salarioBase + salarioHorasExtras
+    }
+}
+
+class EmpleadoConHorasTriples: Empleado {
+    var horasExtras: Int
+    
+    init(horasTrabajadas: Int, sueldoPorHora: Double, horasExtras: Int) {
+        self.horasExtras = horasExtras
+        super.init(horasTrabajadas: horasTrabajadas, sueldoPorHora: sueldoPorHora)
+    }
+    
+    override func calcularSalario() -> Double {
+        let salarioBase = super.ca``lcularSalario()
+        let salarioHorasExtras = Double(horasExtras) * (sueldoPorHora * 3)
+        return salarioBase + salarioHorasExtras
+    }
+}
+
+let empleadoSinHorasExtra = EmpleadoSinHorasExtra(horasTrabajadas: 40, sueldoPorHora: 10.0)
+let salarioSinHorasExtra = empleadoSinHorasExtra.calcularSalario()
+print("Salario sin horas extras: \(salarioSinHorasExtra)")
+
+let empleadoConHorasDobles = EmpleadoConHorasDobles(horasTrabajadas: 43, sueldoPorHora: 10.0, horasExtras: 3)
+let salarioConHorasDobles = empleadoConHorasDobles.calcularSalario()
+print("Salario con horas extras (doble): \(salarioConHorasDobles)")
+
+let empleadoConHorasTriples = EmpleadoConHorasTriples(horasTrabajadas: 46, sueldoPorHora: 10.0, horasExtras: 6)
+let salarioConHorasTriples = empleadoConHorasTriples.calcularSalario()
+print("Salario con horas extras (triple): \(salarioConHorasTriples)")
+```
+
+# Consideraciones
+* Cada clase de empleado representa un escenario diferente de cálculo de salario.
+* Los valores utilizados para crear instancias de las clases son ejemplos y pueden ajustarse según las circunstancias reales de los empleados.
+---
+
+## Cálculo de Importe para Vehículos
+
+### Explicación Breve
+En este código, se definen clases que representan diferentes tipos de vehículos, como autobuses y tractores. Cada clase hereda de la clase base `Vehiculo` y agrega propiedades y métodos específicos para calcular el importe y mostrar datos del vehículo. Se crean instancias de las clases `Autobus` y `Tractor` con valores específicos y se calcula y muestra el importe a pagar por cada vehículo.
+
+### Pasos de la Realización
+
+1. Definición de la clase `Vehiculo`, que tiene una propiedad `numeroPlaca` para almacenar el número de placa del vehículo. Se implementa un inicializador para establecer esta propiedad y se definen dos métodos abstractos (`calcularImporte` y `mostrarDatos`) que deben ser implementados en las clases derivadas.
+
+2. Definición de la clase `Autobus`, que hereda de la clase `Vehiculo`. Esta clase agrega propiedades adicionales, como `precioPorKilometro`, `kilometrosInicio` y `kilometrosFin`, para describir un autobús en particular. Se implementa un inicializador que establece todas las propiedades y se sobrescribe el método `calcularImporte` para calcular el importe basado en los kilómetros recorridos.
+
+3. Definición de la clase `Tractor`, que es similar a `Autobus` pero agrega propiedades diferentes, como `precioPorDia`, `diaRenta` y `diaDevolucion`, para describir un tractor en particular. Se implementa un inicializador que establece todas las propiedades y se sobrescribe el método `calcularImporte` para calcular el importe basado en los días de alquiler.
+
+4. Creación de instancias de las clases `Autobus` y `Tractor` con valores específicos para sus propiedades.
+
+5. Uso de la función `mostrarDatos` para mostrar los datos de cada vehículo en la consola.
+
+6. Uso de la función `calcularImporte` para calcular el importe a pagar por cada vehículo y mostrarlo en la consola.
+
+### Resultados Obtenidos
+Se calcula y muestra el importe a pagar por un autobús y un tractor, así como sus datos específicos.
+
+### Sentencias Completas
+
+```swift
+class Vehiculo {
+    var numeroPlaca: String
+    
+    init(numeroPlaca: String) {
+        self.numeroPlaca = numeroPlaca
+    }
+    
+    func calcularImporte() -> Double {
+        fatalError("Método abstracto, debe ser implementado en las clases derivadas")
+    }
+
+    func mostrarDatos() {
+        fatalError("Método abstracto, debe ser implementado en las clases derivadas")
+    }
+}
+
+class Autobus: Vehiculo {
+    var precioPorKilometro: Double
+    var kilometrosInicio: Double
+    var kilometrosFin: Double
+    
+    init(numeroPlaca: String, precioPorKilometro: Double, kilometrosInicio: Double, kilometrosFin: Double) {
+        self.precioPorKilometro = precioPorKilometro
+        self.kilometrosInicio = kilometrosInicio
+        self.kilometrosFin = kilometrosFin
+        super.init(numeroPlaca: numeroPlaca)
+    }
+    
+    override func calcularImporte() -> Double {
+        return (kilometrosFin - kilometrosInicio) * precioPorKilometro
+    }
+    
+    override func mostrarDatos() {
+        print("Número de Placa: \(numeroPlaca)")
+        print("Precio por Kilómetro: \(precioPorKilometro)")
+        print("Kilómetros Inicio: \(kilometrosInicio)")
+        print("Kilómetros Fin: \(kilometrosFin)")
+    }
+}
+
+class Tractor: Vehiculo {
+    var precioPorDia: Double
+    var diaRenta: Int
+    var diaDevolucion: Int
+    
+    init(numeroPlaca: String, precioPorDia: Double, diaRenta: Int, diaDevolucion: Int) {
+        self.precioPorDia = precioPorDia
+        self.diaRenta = diaRenta
+        self.diaDevolucion = diaDevolucion
+        super.init(numeroPlaca: numeroPlaca)
+    }
+    
+    override func calcularImporte() -> Double {
+        return Double(diaDevolucion - diaRenta) * precioPorDia
+    }
+    
+    override func mostrarDatos() {
+        print("Número de Placa: \(numeroPlaca)")
+        print("Precio por Día: \(precioPorDia)")
+        print("Día de Renta: \(diaRenta)")
+        print("Día de Devolución: \(diaDevolucion)")
+    }
+}
+
+let autobus = Autobus(numeroPlaca: "ABC123", precioPorKilometro: 5.0, kilometrosInicio: 100.0, kilometrosFin: 200.0)
+let tractor = Tractor(numeroPlaca: "XYZ789", precioPorDia: 50.0, diaRenta: 15, diaDevolucion: 18)
+
+autobus.mostrarDatos()
+print("Importe a pagar por el autobús: \(autobus.calcularImporte())")
+
+tractor.mostrarDatos()
+print("Importe a pagar por el tractor: \(tractor.calcularImporte())")
+```
+
+# Consideraciones
+* Las clases Autobus y Tractor heredan de la clase base Vehiculo y sobrescriben sus métodos abstractos.
+* Los valores utilizados para crear instancias de las clases son ejemplos y pueden ajustarse según las circunstancias reales de los vehículos.
