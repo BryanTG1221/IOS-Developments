@@ -337,11 +337,10 @@ La estructura de una declaración condicional en Swift utiliza if, else if y els
 
 ```swift
 if condición {
-    // Código a ejecutar si la condición es verdadera
+
 } else if otraCondición {
-    // Código a ejecutar si la primera condición es falsa y esta es verdadera
 } else {
-    // Código a ejecutar si todas las condiciones anteriores son falsas
+
 }
 ```
 
