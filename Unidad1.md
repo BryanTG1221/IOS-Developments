@@ -8,7 +8,7 @@
 ![ISC](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-jPzL5cckCBILZ_CEhfL5RxSHAG7z3AYslJWJya6KBqkkznDbzRchSDLoDab4SxQYr8&usqp=CAU)
 
 ### Materia: Desarrollo IOS
-### Maestro: Humberto Peña
+### Maestro: Humberto Peña Valle
 
 #### Presentado por:
 - Bryan Azael Turrubiates Galindo (Número de Control: 19100793)
