@@ -219,7 +219,7 @@ print("Salario con horas extras (triple): \(salarioConHorasTriples)")
 
 # Ejercicio 5
 
-```
+```swift
 class Vehiculo {
     var numeroPlaca: String
     
