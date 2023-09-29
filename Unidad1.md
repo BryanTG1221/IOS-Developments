@@ -104,7 +104,16 @@ El desarrollo iOS es un campo dinámico que evoluciona constantemente con cada n
 
 ## macOS Ventura (13):
 
---Pendiente
+- **Creador o Compañía:** Apple Inc.
+- **Fecha de lanzamiento:** La versión original se lanzó en 2022.
+- **Costo por licencia:** Comprando el equipo de Macbook o MacPro viene incluido, si es Hackinntosh puedes descargar el ISO.
+- **Tipo de núcleo (CPU):** Híbrido (XNU).
+- **Arquitectura soportada:** x86-64, ARM64.
+- **Procesador gráfico:**  Intel UHD Graphics.
+- **% de usuarios en el mundo:** Muy bajo en comparación con las versiones de windows.
+- **% de usuarios en México:** Similar al mundo.
+- **Sistemas de archivos soportados:** HFS+, APFS, ExFAT, FAT.
+- **Firewall:** Sí, incluye un firewall incorporado.
 
 ## Microsoft Windows 10:
 
