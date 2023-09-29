@@ -8,8 +8,8 @@ Por otro lado, está Bill Gates, el cerebro detrás de Microsoft. Este tipo cre�
 
 La competencia entre Jobs y Gates era como una pelea de rivales de toda la vida, pero también se necesitaban mutuamente. Su rivalidad estimuló la innovación. Los sistemas operativos, las interfaces, las aplicaciones.
 
-A pesar de sus diferencias, estos tipos también se ayudaron mutuamente. ¿Recuerdas cuando Microsoft salvó a Apple de la quiebra en los años 90? Sí, fue una locura. Demostraron que, a pesar de todo, compartían una visión común: cambiar el mundo con la tecnología.
+A pesar de sus diferencias, estos tipos también se ayudaron mutuamente. De hecho hasta cuando Apple estaba al borde de la quiebra, Bill  Gates salio a ayudarlo, proporcionando un capital para que apple pudiera seguir operando, aunque se desconocen las intenciones de Bill Gates, en el documental dicen que lo ayudo porque si quebraba Apple, seria denominado como un Monopolio de Microsoft.
 
 El documental también nos muestra sus personalidades. Jobs era un perfeccionista temperamental, mientras que Gates era más reservado y centrado en los negocios. Pero ambos dejaron huellas imborrables en la historia.
 
-En resumen, "Jobs vs. Gates" es un viaje emocionante a través de la vida de dos tipos que moldearon la era digital. Su rivalidad y cooperación dieron forma a la tecnología tal como la conocemos. Así que la próxima vez que enciendas tu iPhone o tu PC con Windows, recuerda que estos dos tipos brillantes lo hicieron posible.
+Ya para terminar estos dos personajes, revolucionaron, la industria de la Tecnologia, marcando un antes y un despues en la sociedad y el mundo entero, actualmente, Apple es muy famosa por sus productos y Microsoft se ramifico en diferentes sectores de la indrustria.
