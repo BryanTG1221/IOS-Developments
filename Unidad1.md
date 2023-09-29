@@ -2578,4 +2578,160 @@ print("Suma de fracciones:", suma)
 * El MCD se utiliza para simplificar la fracción resultante.
 
 ---
+## Cálculo de Área de un Rectángulo
 
+### Explicación Breve
+En este código, se define una clase llamada `Rectangulo` que tiene propiedades para el largo y el ancho de un rectángulo. Luego, se implementa un método `calcularArea` para calcular el área del rectángulo y el tiempo requerido para pintar esa área. Se calcula el área de dos objetos, una pared y una ventana, y se imprime la diferencia entre estas dos áreas.
+
+### Pasos de la Realización
+
+1. Importación de la biblioteca `Foundation` para habilitar funcionalidades adicionales.
+
+2. Definición de la clase `Rectangulo` con propiedades `largo` y `ancho`.
+
+3. Creación del método `calcularArea` que toma dos parámetros `ancho` y `largo`, calcula el área del rectángulo y el tiempo requerido para pintarlo (multiplicando el área por 10), y devuelve el tiempo.
+
+4. Creación de una instancia `miRectangulo` de la clase `Rectangulo`.
+
+5. Cálculo del área de una pared con dimensiones 5x10 metros utilizando el método `calcularArea`.
+
+6. Cálculo del área de una ventana con dimensiones 1x2 metros utilizando el método `calcularArea`.
+
+7. Resta del área de la ventana del área de la pared para obtener la diferencia.
+
+8. Uso de la función `print` para mostrar la diferencia de áreas en la consola.
+
+### Resultados Obtenidos
+Se calcula la diferencia entre el área de una pared y el área de una ventana.
+
+### Sentencias Completas
+
+```swift
+import Foundation
+
+class Rectangulo {
+    var largo = 0.0
+    var ancho = 0.0
+
+    func calcularArea(_ ancho: Double, _ largo: Double) -> Double {
+        let area = ancho * largo
+        let tiempo = area * 10
+        return tiempo
+    }
+}
+
+let miRectangulo = Rectangulo()
+let areaPared = miRectangulo.calcularArea(5, 10)
+let areaVentana = miRectangulo.calcularArea(1, 2)
+
+print(areaPared - areaVentana)
+```
+
+# Consideraciones
+Este código asume que las dimensiones proporcionadas para la pared y la ventana son válidas y se ajustan a un rectángulo.
+El tiempo requerido para pintar el área se calcula multiplicando el área por 10, lo que puede ser una aproximación simplificada.
+
+# Resultados Obtenidos (Explicación)
+El código calcula el área de una pared (5x10 metros) y el área de una ventana (1x2 metros) utilizando el método calcularArea. Luego, se resta el área de la ventana del área de la pared y se muestra la diferencia en la consola. Esto representa el área adicional que se necesita pintar en la pared después de restar el área de la ventana.
+
+---
+
+## Cálculo de Áreas de Figuras Geométricas
+
+### Explicación Breve
+En este código, se definen tres clases: `Figura`, `Rectangulo`, `Circunferencia` y `Triangulo`, cada una representando una figura geométrica diferente. Cada clase tiene un método `calcularArea` que calcula el área de la figura correspondiente. Se crean instancias de estas clases y se calcula y muestra el área de cada figura en la consola.
+
+### Pasos de la Realización
+
+1. Importación de la biblioteca `Foundation` para habilitar funcionalidades adicionales.
+
+2. Definición de la clase base `Figura`, que tiene un método `calcularArea` que devuelve 0 como valor predeterminado.
+
+3. Definición de la clase `Rectangulo` que hereda de la clase `Figura` y tiene propiedades para el largo y el ancho.
+
+4. Implementación del método `calcularArea` en la clase `Rectangulo` para calcular el área del rectángulo (largo * ancho).
+
+5. Definición de la clase `Circunferencia` que hereda de la clase `Figura` y tiene una propiedad para el radio.
+
+6. Implementación del método `calcularArea` en la clase `Circunferencia` para calcular el área de la circunferencia (π * radio^2).
+
+7. Definición de la clase `Triangulo` que hereda de la clase `Figura` y tiene propiedades para la altura y la base.
+
+8. Implementación del método `calcularArea` en la clase `Triangulo` para calcular el área del triángulo ((base * altura) / 2).
+
+9. Creación de instancias de las clases `Rectangulo`, `Circunferencia` y `Triangulo` con valores específicos.
+
+10. Uso de la función `print` para mostrar el área calculada de cada figura en la consola.
+
+### Resultados Obtenidos
+Se calcula y muestra el área de un rectángulo, una circunferencia y un triángulo.
+
+### Sentencias Completas
+
+```swift
+import Foundation
+
+class Figura {
+    func calcularArea() -> Double {
+        return 0
+    }
+}
+
+class Rectangulo: Figura {
+    var largo: Double
+    var ancho: Double
+    
+    init(largo: Double, ancho: Double) {
+        self.largo = largo
+        self.ancho = ancho
+        super.init()
+    } 
+    
+    override func calcularArea() -> Double {
+        return largo * ancho
+    }
+}
+
+class Circunferencia: Figura {
+    var radio: Double
+    
+    init(radio: Double) {
+        self.radio = radio
+        super.init()
+    } 
+    
+    override func calcularArea() -> Double {
+        return Double.pi * pow(radio, 2)
+    }
+}
+
+class Triangulo: Figura {
+    var altura: Double
+    var base: Double
+    
+    init(altura: Double, base: Double) {
+        self.altura = altura
+        self.base = base
+        super.init()
+    } 
+    
+    override func calcularArea() -> Double {
+        return (base * altura) / 2
+    }
+}
+
+let miRectangulo = Rectangulo(largo: 6, ancho: 8)
+let miCircunferencia = Circunferencia(radio: 14)
+let miTriangulo = Triangulo(altura: 4, base: 3)
+
+print(miRectangulo.calcularArea())
+print(miCircunferencia.calcularArea())
+print(miTriangulo.calcularArea())
+```
+
+# Consideraciones
+* Cada figura geométrica tiene su propia implementación del método calcularArea.
+* Las áreas se calculan de acuerdo con las fórmulas geométricas estándar para cada figura.
+* Las instancias de las clases se crean con valores específicos para las dimensiones de cada figura.
+# Resultados Obtenidos (Explicación)
+El código crea instancias de las clases Rectangulo, Circunferencia y Triangulo con dimensiones específicas. Luego, calcula y muestra el área de cada figura en la consola utilizando los métodos calcularArea implementados en cada clase. Cada resultado representa el área de la figura geométrica correspondiente.
