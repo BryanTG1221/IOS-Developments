@@ -1,12 +1,12 @@
-Jobs vs. Gates: La Batalla por la Tecnología
+# Jobs vs. Gates: La Batalla por la Tecnología
 
-Imagina un mundo sin iPhones ni Windows. ¡Imposible, verdad? Pues bien, todo comenzó con una legendaria rivalidad entre dos genios de la informática: Steve Jobs y Bill Gates. Este documental es como una montaña rusa de la historia de la tecnología.
+Imaginar el mundo actual sin iPhones ni Windows. Es algo totalmente imposible ya que todo los sistemas y hoy en dia, los utilizamos todos los dia, pero como comenzo todo? , todo comenzó con una legendaria rivalidad entre dos genios de la informática: Steve Jobs y Bill Gates. Este documental cuenta la historia de la tecnologia de los ultimos tiempos y como estas dos personas cambiaron el mundo.
 
-Steve Jobs, el tipo cool de Apple, estaba obsesionado con hacer productos que fueran más bonitos que el sol. Desde la Mac hasta el iPod y el iPhone, siempre buscaba la perfección y la simplicidad. Todo lo que tocaba se convertía en un objeto de culto.
+Steve Jobs, estaba obsesionado con hacer productos que fueran más bonitos del mundo tecnologico. Desde la Mac hasta el iPod y el iPhone, siempre buscaba la perfección y la simplicidad.
 
-Por otro lado, está Bill Gates, el cerebro detrás de Microsoft. Este tipo creía que debería haber una computadora en cada hogar y oficina. Su Windows dominó el mundo de las PC y él sabía cómo hacer negocios como nadie. Microsoft se convirtió en una bestia de la tecnología.
+Por otro lado, está Bill Gates, el cerebro detrás de Microsoft. Este tipo creía que debería haber una computadora en cada hogar y oficina. Su Windows dominó el mundo de las PC y él sabía cómo hacer negocios como nadie. Microsoft se convirtió en un gigante de la tecnología.
 
-La competencia entre Jobs y Gates era como una pelea de titanes, pero también se necesitaban mutuamente. Su rivalidad estimuló la innovación. Los sistemas operativos, las interfaces, las aplicaciones, ¡todo mejoraba a una velocidad vertiginosa!
+La competencia entre Jobs y Gates era como una pelea de rivales de toda la vida, pero también se necesitaban mutuamente. Su rivalidad estimuló la innovación. Los sistemas operativos, las interfaces, las aplicaciones.
 
 A pesar de sus diferencias, estos tipos también se ayudaron mutuamente. ¿Recuerdas cuando Microsoft salvó a Apple de la quiebra en los años 90? Sí, fue una locura. Demostraron que, a pesar de todo, compartían una visión común: cambiar el mundo con la tecnología.
 
