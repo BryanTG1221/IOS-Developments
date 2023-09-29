@@ -1,4 +1,4 @@
-**Jobs vs. Gates: La Batalla por la Tecnología**
+Jobs vs. Gates: La Batalla por la Tecnología
 
 Imagina un mundo sin iPhones ni Windows. ¡Imposible, verdad? Pues bien, todo comenzó con una legendaria rivalidad entre dos genios de la informática: Steve Jobs y Bill Gates. Este documental es como una montaña rusa de la historia de la tecnología.
 
@@ -12,4 +12,4 @@ A pesar de sus diferencias, estos tipos también se ayudaron mutuamente. ¿Recue
 
 El documental también nos muestra sus personalidades. Jobs era un perfeccionista temperamental, mientras que Gates era más reservado y centrado en los negocios. Pero ambos dejaron huellas imborrables en la historia.
 
-"Jobs vs. Gates" es un viaje emocionante a través de la vida de dos tipos que moldearon la era digital. Su rivalidad y cooperación dieron forma a la tecnología tal como la conocemos. Así que la próxima vez que enciendas tu iPhone o tu PC con Windows, recuerda que estos dos tipos brillantes lo hicieron posible.
+En resumen, "Jobs vs. Gates" es un viaje emocionante a través de la vida de dos tipos que moldearon la era digital. Su rivalidad y cooperación dieron forma a la tecnología tal como la conocemos. Así que la próxima vez que enciendas tu iPhone o tu PC con Windows, recuerda que estos dos tipos brillantes lo hicieron posible.
