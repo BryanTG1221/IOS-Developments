@@ -1,7 +1,7 @@
 # Instituto Tecnológico de Nuevo Laredo
 ![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbNxTFTT1xeBVwWk_S5h05KjoJreNJ4mO7E-S0BuxrdQ&s)
 
-<img align="right" width="120" height="120" src="[https://www.pexels.com/photo/photo-of-grey-tabby-kitten-lying-down-2558605/](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-jPzL5cckCBILZ_CEhfL5RxSHAG7z3AYslJWJya6KBqkkznDbzRchSDLoDab4SxQYr8&usqp=CAU)">
+<img align="right" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-jPzL5cckCBILZ_CEhfL5RxSHAG7z3AYslJWJya6KBqkkznDbzRchSDLoDab4SxQYr8&usqp=CAU">
 
 *Con la Ciencia por la Humanidad*
 
