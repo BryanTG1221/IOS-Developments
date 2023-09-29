@@ -1,11 +1,10 @@
 # Instituto Tecnológico de Nuevo Laredo
-![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbNxTFTT1xeBVwWk_S5h05KjoJreNJ4mO7E-S0BuxrdQ&s)
+![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbNxTFTT1xeBVwWk_S5h05KjoJreNJ4mO7E-S0BuxrdQ&s) ![ISC](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-jPzL5cckCBILZ_CEhfL5RxSHAG7z3AYslJWJya6KBqkkznDbzRchSDLoDab4SxQYr8&usqp=CAU)
 
 
 *Con la Ciencia por la Humanidad*
 
 #### Ingenieria en sistemas computacionales
-![ISC](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-jPzL5cckCBILZ_CEhfL5RxSHAG7z3AYslJWJya6KBqkkznDbzRchSDLoDab4SxQYr8&usqp=CAU)
 
 ### Materia: Desarrollo IOS
 ### Maestro: Humberto Peña Valle
